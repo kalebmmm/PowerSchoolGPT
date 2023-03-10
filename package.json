@@ -1,0 +1,26 @@
+{
+  "name": "psdocsindexer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build-pages-index.js",
+  "scripts": {
+    "download-pages": "node download-pages.js",
+    "build-pages-index": "node build-pages-index.js",
+    "scrape": "node scrape.js",
+    "split": "node split.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "csv-writer": "^1.6.0",
+    "gpt-3-encoder": "^1.1.4",
+    "node-fetch": "^2.6.9",
+    "openai": "^3.2.1",
+    "querystring": "^0.2.1",
+    "turndown": "^7.1.1",
+    "turndown-plugin-gfm": "^1.0.2",
+    "word-wrap": "^1.2.3"
+  }
+}
